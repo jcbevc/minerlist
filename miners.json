@@ -104,7 +104,7 @@
             "miner": "TeamRedMiner",
             "download": {
                 "win32": "https://github.com/todxx/teamredminer/releases/download/v0.10.0/teamredminer-v0.10.0-win.zip",
-                "linux": "https://github.com/todxx/teamredminer/releases/download/v0.9.4.2/teamredminer-v0.9.4.2-linux.tgz"
+                "linux": "https://github.com/todxx/teamredminer/releases/download/v0.10.0/teamredminer-v0.10.0-linux.tgz"
             },
             "algos": [
                 "ethash",
