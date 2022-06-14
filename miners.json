@@ -1,11 +1,11 @@
 {
     "algos": {
-        "ethash": 4805,
-        "etchash": 2945,
-        "kawpow": 3328,
+        "ethash": 4664,
+        "etchash": 2875,
+        "kawpow": 3203,
         "beamv3": 2000,
         "EQUI144_5": 2000,
-        "autolykos2": 2319,
+        "autolykos2": 2195,
         "octopus": 4720,
         "randomx": null
     },
@@ -13,8 +13,8 @@
         "phoenixminer": {
             "miner": "PhoenixMiner",
             "download": {
-                "win32": "https://phoenixminer.info/downloads/PhoenixMiner_6.0c_Windows.zip",
-                "linux": "https://phoenixminer.info/downloads/PhoenixMiner_6.0c_Linux.tar.gz"
+                "win32": "https://phoenixminer.info/downloads/PhoenixMiner_5.9d_Windows.zip",
+                "linux": "https://phoenixminer.info/downloads/PhoenixMiner_5.9d_Linux.tar.gz"
             },
             "algos": [
                 "ethash",
@@ -29,7 +29,7 @@
                 "linux"
             ],
             "fee": 0.65,
-            "version": "6.0c",
+            "version": "5.9d",
             "parameters": {
                 "fileName": "PhoenixMiner",
                 "algo": "",
@@ -41,8 +41,8 @@
         "trex": {
             "miner": "T-Rex",
             "download": {
-                "win32": "https://github.com/trexminer/T-Rex/releases/download/0.26.1/t-rex-0.26.1-win.zip",
-                "linux": "https://github.com/trexminer/T-Rex/releases/download/0.26.1/t-rex-0.26.1-linux.tar.gz"
+                "win32": "https://github.com/trexminer/T-Rex/releases/download/0.24.8/t-rex-0.24.8-win.zip",
+                "linux": "https://github.com/trexminer/T-Rex/releases/download/0.24.8/t-rex-0.24.8-linux.tar.gz"
             },
             "algos": [
                 "ethash",
@@ -59,7 +59,7 @@
                 "linux"
             ],
             "fee": 1,
-            "version": "0.26.1",
+            "version": "0.24.8",
             "parameters": {
                 "fileName": "t-rex",
                 "algo": "-a",
@@ -71,8 +71,8 @@
         "nbminer": {
             "miner": "NBMiner",
             "download": {
-                "win32": "https://github.com/NebuTech/NBMiner/releases/download/v41.3/NBMiner_41.3_Win.zip",
-                "linux": "https://github.com/NebuTech/NBMiner/releases/download/v41.3/NBMiner_41.3_Linux.tgz"
+                "win32": "https://github.com/NebuTech/NBMiner/releases/download/v40.1/NBMiner_40.1_Win.zip",
+                "linux": "https://github.com/NebuTech/NBMiner/releases/download/v40.1/NBMiner_40.1_Linux.tgz"
             },
             "algos": [
                 "ethash",
@@ -91,7 +91,7 @@
                 "linux"
             ],
             "fee": 2,
-            "version": "41.3",
+            "version": "40.1",
             "parameters": {
                 "fileName": "nbminer",
                 "algo": "-a",
@@ -103,8 +103,8 @@
         "teamredminer": {
             "miner": "TeamRedMiner",
             "download": {
-                "win32": "https://github.com/todxx/teamredminer/releases/download/v0.10.0/teamredminer-v0.10.0-win.zip",
-                "linux": "https://github.com/todxx/teamredminer/releases/download/v0.10.0/teamredminer-v0.10.0-linux.tgz"
+                "win32": "https://github.com/todxx/teamredminer/releases/download/v0.10.1/teamredminer-v0.10.1-win.zip",
+                "linux": "https://github.com/todxx/teamredminer/releases/download/v0.10.1/teamredminer-v0.10.1-linux.tgz"
             },
             "algos": [
                 "ethash",
@@ -119,7 +119,7 @@
                 "linux"
             ],
             "fee": 2,
-            "version": "v0.9.4.2",
+            "version": "v0.10.1",
             "parameters": {
                 "fileName": "teamredminer",
                 "algo": "-a",
@@ -131,8 +131,8 @@
         "lolminer": {
             "miner": "lolMiner",
             "download": {
-                "win32": "https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.48/lolMiner_v1.48_Win64.zip",
-                "linux": "https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.48/lolMiner_v1.48_Lin64.tar.gz"
+                "win32": "https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Win64.zip",
+                "linux": "https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.42/lolMiner_v1.42_Lin64.tar.gz"
             },
             "algos": [
                 "ethash",
@@ -149,7 +149,7 @@
                 "linux"
             ],
             "fee": 1,
-            "version": "1.48",
+            "version": "1.42",
             "parameters": {
                 "fileName": "lolMiner",
                 "algo": "--algo",
@@ -161,9 +161,9 @@
         "xmrig": {
             "miner": "XMRig",
             "download": {
-                "win32": "https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-gcc-win64.zip",
-                "linux": "https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-linux-x64.tar.gz",
-                "darwin": "https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-macos-x64.tar.gz"
+                "win32": "https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-gcc-win64.zip",
+                "linux": "https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-linux-x64.tar.gz",
+                "darwin": "https://github.com/xmrig/xmrig/releases/download/v6.16.2/xmrig-6.16.2-macos-x64.tar.gz"
             },
             "algos": [
                 "randomx"
@@ -176,7 +176,7 @@
                 "darwin"
             ],
             "fee": 1,
-            "version": "6.16.4",
+            "version": "6.16.2",
             "parameters": {
                 "fileName": "xmrig",
                 "algo": "-a",
